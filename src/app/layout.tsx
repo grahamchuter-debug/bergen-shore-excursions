@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 
 import { JsonLd } from "@/components/json-ld";
 import { SiteFooter } from "@/components/site-footer";
@@ -22,11 +22,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default:
-      "Bergen Shore Excursions | Cruise Port Tours & Fjord Guides",
+    default: "Bergen Shore Excursions | Cruise Port Day Planning",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.defaultDescription,
@@ -34,8 +38,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title:
-      "Bergen Shore Excursions | Cruise Port Tours & Fjord Guides",
+    title: "Bergen Shore Excursions | Cruise Port Day Planning",
     description: siteConfig.defaultDescription,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -52,8 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Bergen Shore Excursions | Cruise Port Tours & Fjord Guides",
+    title: "Bergen Shore Excursions | Cruise Port Day Planning",
     description: siteConfig.defaultDescription,
     images: [siteConfig.defaultOgImage],
   },
@@ -71,7 +73,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         <JsonLd

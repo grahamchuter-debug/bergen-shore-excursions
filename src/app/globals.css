@@ -1,25 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --surface-muted: #f4f8fc;
-  --navy: #0a2540;
-  --navy-deep: #061a2e;
-  --norway-blue: #0066b3;
-  --norway-blue-hover: #005a9e;
-  --norway-red: #ba0c2f;
-  --border-light: #e2e8f0;
+  /* Bergen harbour-city character: warm paper + deep harbour navy + fjord teal */
+  --background: #f4f1ec;
+  --foreground: #142033;
+  --surface: #ffffff;
+  --surface-muted: #ebe6de;
+  --navy: #10263a;
+  --navy-deep: #0b1a28;
+  --fjord: #1f5563;
+  --fjord-soft: #2d6f7d;
+  --harbour: #3a5f6e;
+  --accent: #a67c3a;
+  --accent-soft: #c49a55;
+  --border-light: #d6cfc4;
+  --norway-blue: #1f5563;
+  --norway-blue-hover: #17434f;
+  --norway-red: #8b3a3a;
+  --gold: #a67c3a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-surface-muted: var(--surface-muted);
   --color-norway-blue: var(--norway-blue);
   --color-norway-red: var(--norway-red);
-  --color-surface-muted: var(--surface-muted);
   --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-source-serif);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -27,6 +37,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid var(--fjord);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  letter-spacing: -0.02em;
 }
 
 .bg-navy {
@@ -50,58 +70,77 @@ body {
 }
 
 .accent-bar-blue {
-  background-color: var(--norway-blue);
+  background-color: var(--fjord);
 }
 
 .accent-bar-red {
-  background-color: var(--norway-red);
+  background-color: var(--accent);
 }
 
-.btn-primary {
-  display: inline-block;
-  border-radius: 9999px;
-  background-color: var(--norway-blue);
-  padding: 0.625rem 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #ffffff;
-  transition: background-color 0.15s ease;
-}
+@layer components {
+  .btn-primary,
+  .btn-primary-on-light,
+  .btn-gold {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    border-radius: 0.25rem;
+    padding: 0.7rem 1.35rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    background-color: var(--accent);
+    color: #fff;
+    transition: background-color 0.15s ease;
+  }
 
-.btn-primary:hover {
-  background-color: var(--norway-blue-hover);
-}
+  .btn-primary:hover,
+  .btn-primary-on-light:hover,
+  .btn-gold:hover {
+    background-color: var(--accent-soft);
+    color: #142033;
+  }
 
-.btn-secondary {
-  display: inline-block;
-  border-radius: 9999px;
-  border: 1px solid rgb(255 255 255 / 0.35);
-  background-color: rgb(255 255 255 / 0.1);
-  padding: 0.625rem 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #ffffff;
-  backdrop-filter: blur(4px);
-  transition: background-color 0.15s ease;
-}
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(255 255 255 / 0.35);
+    background-color: rgb(255 255 255 / 0.1);
+    padding: 0.7rem 1.35rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #ffffff;
+    backdrop-filter: blur(4px);
+    transition: background-color 0.15s ease;
+  }
 
-.btn-secondary:hover {
-  background-color: rgb(255 255 255 / 0.2);
-}
+  .btn-secondary:hover {
+    background-color: rgb(255 255 255 / 0.2);
+  }
 
-.btn-primary-on-light {
-  display: inline-block;
-  border-radius: 9999px;
-  background-color: var(--norway-blue);
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #ffffff;
-  transition: background-color 0.15s ease;
-}
+  .btn-outline-dark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--border-light);
+    background: transparent;
+    padding: 0.7rem 1.35rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--foreground);
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
 
-.btn-primary-on-light:hover {
-  background-color: var(--norway-blue-hover);
+  .btn-outline-dark:hover {
+    border-color: var(--fjord);
+    background: var(--surface);
+  }
 }
 
 .page-hero {
@@ -113,29 +152,40 @@ body {
 .page-hero-overlay {
   background: linear-gradient(
     180deg,
-    rgb(6 26 46 / 0.78) 0%,
-    rgb(10 37 64 / 0.62) 100%
+    rgb(11 26 40 / 0.82) 0%,
+    rgb(16 38 58 / 0.58) 100%
   );
 }
 
-.badge-accent-red {
-  border: 1px solid rgb(255 255 255 / 0.35);
-  border-left: 3px solid var(--norway-red);
-  background-color: rgb(255 255 255 / 0.12);
+.hero-dark {
+  color: #fff;
 }
 
-.badge-hero-red {
-  background-color: var(--norway-red);
-  color: #ffffff;
+.hero-eyebrow,
+.section-eyebrow {
+  color: var(--accent-soft);
+  letter-spacing: 0.18em;
+}
+
+.section-eyebrow {
+  color: var(--fjord);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .content-link {
-  font-weight: 500;
-  color: var(--norway-blue);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: var(--fjord);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .content-link:hover {
-  color: var(--norway-blue-hover);
+  text-decoration: underline;
+}
+
+.premium-card {
+  border: 1px solid var(--border-light);
+  background: var(--surface);
+  border-radius: 0.25rem;
 }

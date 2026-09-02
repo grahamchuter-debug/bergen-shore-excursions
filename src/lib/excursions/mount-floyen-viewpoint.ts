@@ -6,7 +6,7 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
   path: "/excursions/mount-floyen-viewpoint",
   title: "Mount Fløyen Viewpoint",
   headline: "Mount Fløyen Viewpoint Tour",
-  lead: "Scenic viewpoint sightseeing by Fløibanen funicular — panoramic Bergen and fjord views from Mount Fløyen, easy cruise-passenger access, and a natural pairing with a harbour walking tour when time allows.",
+  lead: "Scenic viewpoint sightseeing by Fløibanen funicular, panoramic Bergen and fjord views from Mount Fløyen, easy cruise-passenger access, and a natural pairing with a harbour walking tour when time allows.",
   metaTitle: "Mount Fløyen Viewpoint Tour for Bergen Cruise Passengers",
   metaDescription:
     "Mount Fløyen viewpoint tour via Fløibanen funicular for cruise passengers. Easy sightseeing, weather-dependent views, and pairs well with a Bergen walking tour.",
@@ -39,13 +39,13 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
     "Easy cruise-passenger sightseeing with minimal walking at the top",
     "Popular photography stop on clear days",
     "Works well paired with a Bryggen walking tour on longer port days",
-    "Weather-dependent — mist and cloud can limit visibility",
+    "Weather-dependent, mist and cloud can limit visibility",
   ],
   description: [
-    "Mount Fløyen is Bergen's most accessible summit viewpoint. The Fløibanen funicular climbs from the city centre in minutes, delivering one of Norway's classic urban panoramas — rooftops, harbour basins, and island-studded fjord approaches spread below.",
+    "Mount Fløyen is Bergen's most accessible summit viewpoint. The Fløibanen funicular climbs from the city centre in minutes, delivering one of Norway's classic urban panoramas, rooftops, harbour basins, and island-studded fjord approaches spread below.",
     "This excursion format focuses on the ride and summit time rather than a full city circuit. That makes it efficient for cruise passengers who already plan independent time in Bryggen or who want elevation after a harbour walk.",
     "At the top, terraces, café facilities, and short walking paths let you enjoy the outlook at your own pace within a typical one-and-a-half to two-hour window. Guides or timed tickets help you align the funicular schedule with your ship's all-aboard deadline.",
-    "Visibility is weather-dependent. On clear days the view is spectacular; in fog or drizzle the experience is still atmospheric but photographers should manage expectations. Packing a light layer is wise — the summit is often cooler than the harbour.",
+    "Visibility is weather-dependent. On clear days the view is clear and wide; in fog or drizzle the experience is still atmospheric but photographers should manage expectations. Packing a light layer is wise, the summit is often cooler than the harbour.",
   ],
   included: [
     "Fløibanen funicular return journey (when included by operator)",
@@ -60,7 +60,7 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
   ],
   timingAdvice: [
     "Fits well into four-to-six-hour port calls alongside a short city walk.",
-    "On ten-plus-hour days, pair with a morning walking tour and afternoon funicular ride — or reverse the order.",
+    "On ten-plus-hour days, pair with a morning walking tour and afternoon funicular ride, or reverse the order.",
     "Check funicular frequency before booking; queues extend on peak summer days.",
     "If cloud sits on the summit, consider switching to a harbour-focused walking tour instead.",
   ],
@@ -78,7 +78,7 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
     {
       question: "Can I combine Mount Fløyen with a walking tour?",
       answer:
-        "Yes on port days of six hours or more. Walk Bryggen and Torget first, then ride Fløibanen — always keep 30–45 minutes buffer before all aboard.",
+        "Yes on port days of six hours or more. Walk Bryggen and Torget first, then ride Fløibanen, always keep 30–45 minutes buffer before all aboard.",
     },
     {
       question: "Is Fløibanen suitable for visitors with limited mobility?",
@@ -88,7 +88,7 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
     {
       question: "Where is the Fløibanen lower station?",
       answer:
-        "The lower station sits in central Bergen within walking distance of Vågen harbour and Bryggen — typically 10–20 minutes from most cruise berths.",
+        "The lower station sits in central Bergen within walking distance of Vågen harbour and Bryggen, typically 10–20 minutes from most cruise berths.",
     },
   ],
   breadcrumbs: [
@@ -102,8 +102,8 @@ export const mountFloyenViewpointExcursion: ExcursionData = {
     { label: "Bergen port guide", href: "/bergen-port-guide" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
+  exploreLabel: "Explore this excursion",
   ctaTitle: "Ready to visit Mount Fløyen?",
   ctaText:
-    "Ride Fløibanen for panoramic Bergen views — easy sightseeing built around your port schedule.",
+    "Ride Fløibanen for panoramic Bergen views, easy sightseeing built around your port schedule.",
 };

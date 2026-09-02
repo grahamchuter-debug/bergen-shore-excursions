@@ -17,6 +17,8 @@ const pageMeta = {
 export const metadata: Metadata = buildPageMetadata(pageMeta);
 
 const relatedLinks = [
+  { label: "Ship schedule", href: "/ship-schedule" },
+  { label: "City or fjord?", href: "/bergen-city-or-fjord" },
   { label: "Shore excursions", href: "/excursions" },
   { label: "Bergen port guide", href: "/bergen-port-guide" },
   { label: "Is Bergen worth visiting?", href: "/is-bergen-worth-visiting" },
@@ -32,7 +34,7 @@ const faqs = [
   {
     question: "Can I combine a fjord cruise and walking tour in one Bergen day?",
     answer:
-      "Yes if your ship stays at least eight to ten hours. Many guests run a morning walking tour, enjoy lunch near the Fish Market, then board an afternoon Mostraumen sailing — or reverse the order on early-arrival days.",
+      "Yes if your ship stays at least eight to ten hours. Many guests run a morning walking tour, enjoy lunch near the Fish Market, then board an afternoon Mostraumen sailing, or reverse the order on early-arrival days.",
   },
   {
     question: "Should I book tickets before my cruise arrives in Bergen?",
@@ -61,10 +63,13 @@ export default function OneDayInBergenPage() {
       <section>
         <h2>Start with your ship&apos;s Bergen schedule</h2>
         <p>
-          Every good Bergen day begins with your cruise line&apos;s arrival,
-          departure, and all-aboard times. Subtract at least 45 minutes from your
-          last possible departure to set a hard deadline for being back at the
-          gangway. Confirm times on your ship&apos;s app the morning you arrive.
+          Every good Bergen day begins with arrival, departure and all-aboard
+          times. Subtract at least 45 minutes from your last possible return to
+          set a hard gangway deadline. Confirm times on your ship&apos;s app the
+          morning you arrive. Browse published calls on the{" "}
+          <Link href="/ship-schedule">Bergen ship schedule</Link>, then decide{" "}
+          <Link href="/bergen-city-or-fjord">city or fjord</Link> before locking
+          a plan. Not every call supports the same combination.
         </p>
       </section>
 
@@ -136,7 +141,7 @@ export default function OneDayInBergenPage() {
         <p>
           Keep the final 45 minutes free for the walk back to your gangway.
           Bergen&apos;s compact centre makes last-minute souvenir stops tempting
-          — set a phone alarm for your personal return-to-port deadline.
+         , set a phone alarm for your personal return-to-port deadline.
         </p>
       </section>
     </ContentPage>

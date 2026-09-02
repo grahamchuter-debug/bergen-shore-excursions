@@ -16,7 +16,7 @@ export const bergenTourCards: readonly BergenTourCard[] = [
     imageAlt: imageAlts.mostraumenCard,
     title: "Fjord Cruise to Mostraumen",
     description:
-      "Modern catamaran-style fjord cruise through Osterfjord to mountains, waterfalls, and the narrow Mostraumen strait — Bergen's headline scenic shore excursion.",
+      "Modern catamaran-style fjord cruise through Osterfjord to mountains, waterfalls, and the narrow Mostraumen strait. Bergen's headline scenic shore excursion.",
     accent: "blue",
   },
   {
@@ -34,7 +34,7 @@ export const bergenTourCards: readonly BergenTourCard[] = [
     imageAlt: imageAlts.walkingTourCard,
     title: "Bergen Walking Tour for Cruise Passengers",
     description:
-      "Approx. two-hour guided walk through Bryggen, Vågen harbour, the Fish Market, and Hanseatic streets — ideal for shorter port calls.",
+      "Approx. two-hour guided walk through Bryggen, Vågen harbour, the Fish Market, and Hanseatic streets, ideal for shorter port calls.",
     accent: "blue",
   },
   {
@@ -43,7 +43,7 @@ export const bergenTourCards: readonly BergenTourCard[] = [
     imageAlt: imageAlts.floyenCard,
     title: "Mount Fløyen Viewpoint Tour",
     description:
-      "Fløibanen funicular to scenic Bergen outlooks — easy sightseeing that pairs well with a harbour walk when time allows.",
+      "Fløibanen funicular to scenic Bergen outlooks. Easy sightseeing that pairs well with a harbour walk when time allows.",
     accent: "red",
   },
   {

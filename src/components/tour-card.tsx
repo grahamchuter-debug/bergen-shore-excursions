@@ -43,7 +43,7 @@ export function TourCard({
         </p>
 
         <Link href={href} className="btn-primary-on-light w-fit">
-          View Tour
+          View excursion
         </Link>
       </div>
     </article>

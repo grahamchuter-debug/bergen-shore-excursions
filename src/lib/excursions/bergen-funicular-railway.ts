@@ -6,7 +6,7 @@ export const bergenFunicularRailwayExcursion: ExcursionData = {
   path: "/excursions/bergen-funicular-railway",
   title: "Best of Bergen with Funicular Railway",
   headline: "Best of Bergen with Funicular Railway",
-  lead: "Bergen's strongest sightseeing and viewpoint tour — city highlights including Bryggen, Bergenhus Fortress, Vågen harbour, and a ride on the Fløibanen funicular to panoramic Mount Fløyen views.",
+  lead: "Bergen's strongest sightseeing and viewpoint tour, city highlights including Bryggen, Bergenhus Fortress, Vågen harbour, and a ride on the Fløibanen funicular to panoramic Mount Fløyen views.",
   metaTitle: "Best of Bergen with Funicular Railway Shore Excursion",
   metaDescription:
     "Guided Best of Bergen tour with Fløibanen funicular railway for cruise passengers. Bryggen, harbour, Bergenhus, and Mount Fløyen views in approx. 3–4 hours.",
@@ -43,8 +43,8 @@ export const bergenFunicularRailwayExcursion: ExcursionData = {
     "Strong seller for guests who want city plus viewpoints in one booking",
   ],
   description: [
-    "This guided tour combines Bergen's essential city sights with the city's most famous viewpoint. You walk or ride through the historic core — Bryggen's Hanseatic wharf, colourful wooden streets, Vågen harbour, and the fortress area that guarded the harbour for centuries.",
-    "The Fløibanen funicular carries you from the city centre to Mount Fløyen in minutes. At the top, wide terraces overlook Bergen's rooftops, islands, and fjord approaches — a perspective that photographs beautifully on clear days and still impresses when low cloud rolls in.",
+    "This guided tour combines Bergen's essential city sights with the city's most famous viewpoint. You walk or ride through the historic core. Bryggen's Hanseatic wharf, colourful wooden streets, Vågen harbour, and the fortress area that guarded the harbour for centuries.",
+    "The Fløibanen funicular carries you from the city centre to Mount Fløyen in minutes. At the top, wide terraces overlook Bergen's rooftops, islands, and fjord approaches, a perspective that photographs beautifully on clear days and still impresses when low cloud rolls in.",
     "Guides pace the route for cruise passengers, keeping transfers short and commentary focused on what you can realistically cover in three to four hours. That makes this tour a dependable choice when you want both culture at sea level and elevation without managing tickets and timings yourself.",
     "Weather affects visibility at the summit, so operators may adjust time on Mount Fløyen. Even with mist, the city walk through Bryggen and the harbour delivers authentic Bergen character within return-to-ship friendly margins.",
   ],
@@ -62,7 +62,7 @@ export const bergenFunicularRailwayExcursion: ExcursionData = {
   timingAdvice: [
     "This tour works best when you have at least four hours ashore. With six or more hours, you can combine it comfortably with harbour lunch time.",
     "Confirm whether your sailing includes funicular tickets and whether the route starts near your cruise berth.",
-    "Build 30–45 minutes of buffer before all aboard — funicular queues can lengthen on peak summer days.",
+    "Build 30–45 minutes of buffer before all aboard, funicular queues can lengthen on peak summer days.",
     "If visibility is poor at Mount Fløyen, ask your guide about adjusting time in Bryggen or near Bergenhus.",
   ],
   faqs: [
@@ -84,7 +84,7 @@ export const bergenFunicularRailwayExcursion: ExcursionData = {
     {
       question: "What happens if Mount Fløyen is foggy?",
       answer:
-        "Views are weather-dependent. Guides may shorten time at the summit and expand the city walk. Pack a light jacket — the top can be cooler and windier than the harbour.",
+        "Views are weather-dependent. Guides may shorten time at the summit and expand the city walk. Pack a light jacket, the top can be cooler and windier than the harbour.",
     },
     {
       question: "Can I do this tour on a 4–6 hour port call?",
@@ -103,7 +103,7 @@ export const bergenFunicularRailwayExcursion: ExcursionData = {
     { label: "Bergen port guide", href: "/bergen-port-guide" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
+  exploreLabel: "Explore this excursion",
   ctaTitle: "Ready to book Best of Bergen with the funicular?",
   ctaText:
     "Combine Bryggen, harbour history, and Mount Fløyen views in one cruise-friendly tour.",

@@ -52,10 +52,10 @@ export function ContentPage({
   faqs,
   breadcrumbs,
   belowHero,
-  ctaTitle = "Plan your Bergen shore excursion",
-  ctaText = "Browse cruise-friendly tours designed around your ship's time in port, with enough margin to return before all aboard.",
+  ctaTitle = "Explore Bergen excursion options",
+  ctaText = "Browse cruise-friendly ideas shaped around a day in port, with enough margin to return before all aboard.",
   ctaHref = siteConfig.shoreExcursionsPath,
-  ctaButtonLabel = "View Bergen shore excursions",
+  ctaButtonLabel = "Explore Bergen excursions",
   showShipReassurance = true,
   relatedSectionTitle = "Related Bergen guides",
 }: ContentPageProps) {
@@ -76,15 +76,15 @@ export function ContentPage({
       <JsonLd data={schema} />
       <main className="min-h-screen bg-white text-slate-900">
         <PageHero image={heroImage} imageAlt={heroImageAlt}>
-          <h1 className="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+          <h1 className="font-display mb-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl">
             {title}
           </h1>
           <p className="max-w-3xl text-base leading-7 text-white/90 sm:text-lg">
             {lead}
           </p>
           {showShipReassurance ? (
-            <p className="badge-accent-red mt-5 inline-flex rounded-full px-4 py-1.5 text-xs font-medium text-white/95 backdrop-blur-sm sm:text-sm">
-              Return to ship on time — cruise passenger friendly
+            <p className="mt-5 max-w-xl text-xs font-medium leading-5 text-white/80 sm:text-sm">
+              Return-to-ship planning for cruise passengers
             </p>
           ) : null}
         </PageHero>
@@ -99,7 +99,7 @@ export function ContentPage({
 
         <section className="border-y bg-navy text-white">
           <div className="mx-auto max-w-3xl px-4 py-12 text-center sm:px-6 sm:py-14">
-            <h2 className="text-2xl font-bold sm:text-3xl">{ctaTitle}</h2>
+            <h2 className="font-display text-2xl font-semibold sm:text-3xl">{ctaTitle}</h2>
             <p className="mx-auto mt-3 max-w-2xl text-base leading-7 text-white/85 sm:text-lg">
               {ctaText}
             </p>

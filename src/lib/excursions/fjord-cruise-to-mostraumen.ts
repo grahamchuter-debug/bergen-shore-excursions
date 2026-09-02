@@ -6,7 +6,7 @@ export const mostraumenFjordCruiseExcursion: ExcursionData = {
   path: "/excursions/fjord-cruise-to-mostraumen",
   title: "Fjord Cruise to Mostraumen",
   headline: "Fjord Cruise to Mostraumen from Bergen",
-  lead: "Bergen's headline scenic shore excursion — a modern catamaran-style fjord cruise through Osterfjord to the narrow Mostraumen strait, with mountains, waterfalls, and return-to-ship friendly timing for cruise passengers.",
+  lead: "Bergen's headline scenic shore excursion, a modern catamaran-style fjord cruise through Osterfjord to the narrow Mostraumen strait, with mountains, waterfalls, and return-to-ship friendly timing for cruise passengers.",
   metaTitle: "Fjord Cruise to Mostraumen Shore Excursion from Bergen",
   metaDescription:
     "Book the Mostraumen fjord cruise from Bergen for cruise passengers. Approx. 3.5 hours through Osterfjord scenery with easy activity level and return-to-ship timing advice.",
@@ -39,14 +39,14 @@ export const mostraumenFjordCruiseExcursion: ExcursionData = {
     "Steep mountains, waterfalls, and narrow strait navigation",
     "Modern sightseeing vessel with sundeck viewing",
     "Departs from central harbour near Bryggen and the Fish Market",
-    "Easy activity level — ideal first-time visitor choice",
+    "Easy activity level, ideal first-time visitor choice",
     "Strong fit for cruise passengers with six or more hours ashore",
   ],
   description: [
-    "The Mostraumen fjord cruise is the scenic headline for cruise passengers calling at Bergen. From Zachariasbryggen beside Torget you board a modern catamaran-style vessel and sail into Osterfjord — a landscape of steep walls, cascading waterfalls, and calm inner-fjord waters that define the Norwegian coast.",
+    "The Mostraumen fjord cruise is the scenic headline for cruise passengers calling at Bergen. From Zachariasbryggen beside Torget you board a modern catamaran-style vessel and sail into Osterfjord, a landscape of steep walls, cascading waterfalls, and calm inner-fjord waters that define the Norwegian coast.",
     "The route continues toward the shallow Mostraumen strait, where strong currents squeeze between rock faces and boats pass within metres of a thundering waterfall. Commentary on board helps you understand the geology and local communities of Modalen municipality before the return sailing to Bergen harbour.",
     "Because departures sit in the heart of the city, you spend less time on transfers and more time on the water. That makes this cruise a practical choice when you want dramatic fjord scenery without committing an entire port day to inland travel.",
-    "Designed with cruise timetables in mind, the sailing typically runs around three and a half hours round trip — leaving room for a short city walk or harbour lunch when your ship stays long enough.",
+    "Timed with cruise calls in mind, the sailing typically runs around three and a half hours round trip, leaving room for a short city walk or harbour lunch when your ship stays long enough.",
   ],
   included: [
     "Scenic fjord cruise through Osterfjord to Mostraumen",
@@ -60,7 +60,7 @@ export const mostraumenFjordCruiseExcursion: ExcursionData = {
     "Travel insurance or personal expenses",
   ],
   timingAdvice: [
-    "Check your cruise line app for arrival, all-aboard, and departure times before booking. Treat all-aboard — not published departure — as your hard deadline.",
+    "Check your cruise line app for arrival, all-aboard, and departure times before booking. Treat all-aboard, not the published departure, as your hard deadline.",
     "Allow 30–45 minutes after the excursion ends to walk back to the gangway, clear pier queues, and board without stress.",
     "On busy summer days when several ships visit Bergen, disembark early and head straight to Zachariasbryggen.",
     "Compare your ship's hours in port with our Bergen Cruise Smart Planner before confirming a sailing time.",
@@ -84,7 +84,7 @@ export const mostraumenFjordCruiseExcursion: ExcursionData = {
     {
       question: "Is the Mostraumen cruise suitable for first-time visitors?",
       answer:
-        "Yes. It delivers classic Norwegian fjord scenery with minimal walking and an easy activity level — one of the strongest introductions to the region for cruise guests.",
+        "Yes. It delivers classic Norwegian fjord scenery with minimal walking and an easy activity level, one of the strongest introductions to the region for cruise guests.",
     },
     {
       question: "Should cruise passengers book the Mostraumen cruise in advance?",
@@ -103,7 +103,7 @@ export const mostraumenFjordCruiseExcursion: ExcursionData = {
     { label: "Bergen walking tour", href: "/excursions/bergen-walking-tour" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
+  exploreLabel: "Explore this excursion",
   ctaTitle: "Ready to book your Mostraumen fjord cruise from Bergen?",
   ctaText:
     "Secure your sailing time before port day and explore more cruise-friendly excursions designed around your ship's timetable.",

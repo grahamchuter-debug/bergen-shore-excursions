@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "What is the best month for Bergen cruise shore excursions?",
     answer:
-      "May through September offers the most reliable Mostraumen sailings, long daylight, and walkable weather for Bryggen tours. June and July are busiest — book excursions early.",
+      "May through September offers the most reliable Mostraumen sailings, long daylight, and walkable weather for Bryggen tours. June and July are busiest, book excursions early.",
   },
   {
     question: "Is Bergen crowded in summer?",
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "Does weather affect Mostraumen fjord cruises from Bergen?",
     answer:
-      "Operators may adjust routes in high winds or poor visibility. Keep flexible plans and monitor announcements — have a Bryggen walking backup if sailing is delayed.",
+      "Operators may adjust routes in high winds or poor visibility. Keep flexible plans and monitor announcements, have a Bryggen walking backup if sailing is delayed.",
   },
 ] as const;
 
@@ -64,7 +64,7 @@ export default function BestTimeToVisitBergenPage() {
           Most Bergen cruise calls arrive between late spring and early autumn.
           Longer daylight, active fjord operators, and comfortable walking
           weather make this the best window for shore excursions. June through
-          August sees the highest ship volumes — plan ahead.
+          August sees the highest ship volumes, plan ahead.
         </p>
       </section>
 
@@ -72,7 +72,7 @@ export default function BestTimeToVisitBergenPage() {
         <h2>June and July: best scenery, busiest ports</h2>
         <p>
           Mid-summer delivers the classic Norway experience cruise guests expect
-          — green fjord walls, busy harbours, and full excursion timetables.
+         , green fjord walls, busy harbours, and full excursion timetables.
           Book Mostraumen cruises and walking tours in advance, and disembark
           early on days when several ships share Bergen.
         </p>
@@ -83,7 +83,7 @@ export default function BestTimeToVisitBergenPage() {
         <p>
           Shoulder season often means slightly fewer crowds while operators
           still run regular fjord sailings. Temperatures can be cooler and rain
-          more frequent — pack layers and waterproof footwear for Bryggen
+          more frequent, pack layers and waterproof footwear for Bryggen
           cobblestones.
         </p>
       </section>
@@ -92,7 +92,7 @@ export default function BestTimeToVisitBergenPage() {
         <h2>Weather and Mount Fløyen visibility</h2>
         <p>
           Bergen is known for changeable weather. Fløibanen and Mount Fløyen
-          views are weather-dependent — mist and cloud can limit panoramas even
+          views are weather-dependent, mist and cloud can limit panoramas even
           in summer. Fjord cruises may alter routes in high winds. Always have
           a city-focused backup plan.
         </p>

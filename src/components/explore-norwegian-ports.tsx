@@ -105,7 +105,7 @@ export const explorePortsFromBergen: ExploreNorwegianPortsConfig = {
       >
         Stavanger
       </a>{" "}
-      — including port guides, tour comparisons, and cruise-day planners built
+     . including port guides, tour comparisons, and cruise-day planners built
       for passengers on the same itinerary.
     </>
   ),

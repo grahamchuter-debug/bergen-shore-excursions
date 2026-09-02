@@ -50,7 +50,7 @@ export const bergenPortDayPlannerConfig: CruisePortDayPlannerConfig = {
       dayPlan: [
         "Disembark promptly and stay within walking distance of Vågen harbour",
         "Choose a 2-hour guided walk or a self-guided loop through Bryggen and Torget",
-        "Skip Mostraumen fjord cruises and Mount Fløyen — not enough margin",
+        "Skip Mostraumen fjord cruises and Mount Fløyen, not enough margin",
         "Be back at the gangway by your recommended return time",
       ],
     },

@@ -32,7 +32,7 @@ const faqs = [
   {
     question: "Do cruise ships tender in Bergen or dock at the pier?",
     answer:
-      "Most vessels dock at Bergen's main cruise and harbour facilities close to the city centre. Tender operations are uncommon but possible — check your cruise app on the morning of arrival.",
+      "Most vessels dock at Bergen's main cruise and harbour facilities close to the city centre. Tender operations are uncommon but possible, check your cruise app on the morning of arrival.",
   },
   {
     question: "Are there restrooms and Wi-Fi near the Bergen cruise port?",
@@ -50,7 +50,7 @@ export default function BergenPortGuidePage() {
   return (
     <ContentPage
       title="Bergen Port Guide for Cruise Passengers"
-      lead="Everything you need to navigate Bergen cruise port — pier location, walking routes, facilities, and how to reach shore excursions without losing precious port time."
+      lead="Practical guidance for Bergen cruise port: pier location, walking routes, facilities, and how to reach shore excursions without losing port time."
       heroImage={pageMeta.ogImage}
       heroImageAlt={pageMeta.ogImageAlt}
       pagePath={pageMeta.path}
@@ -85,7 +85,7 @@ export default function BergenPortGuidePage() {
           </li>
           <li>
             <strong>Zachariasbryggen (Mostraumen cruises):</strong> beside
-            Torget — walkable from most piers
+            Torget, walkable from most piers
           </li>
           <li>
             <strong>Fløibanen lower station:</strong> roughly 15–20 minutes
@@ -104,7 +104,7 @@ export default function BergenPortGuidePage() {
           Tourist information, ATMs, pharmacies, and cafés cluster around
           Vågen and Torget. The Fish Market area offers restrooms, food stalls,
           and shelter on wet days. Most excursion operators meet guests at
-          signed locations near Bryggen or the Fish Market — check your voucher
+          signed locations near Bryggen or the Fish Market, check your voucher
           for the exact quay or street corner.
         </p>
       </section>
@@ -114,7 +114,7 @@ export default function BergenPortGuidePage() {
         <p>
           Disembark as early as your cruise line allows on busy port days.
           Mostraumen sailings and guided walking tours operate to fixed
-          schedules — late arrival at the meeting point can mean forfeiting your
+          schedules, late arrival at the meeting point can mean forfeiting your
           ticket. Build 30–45 minutes before all aboard on the return leg.
         </p>
         <p>
@@ -130,7 +130,7 @@ export default function BergenPortGuidePage() {
         <h2>Practical tips for Bergen port days</h2>
         <ul>
           <li>Carry Norwegian kroner or a contactless card for market stalls and cafés</li>
-          <li>Pack a light rain layer — Bergen weather changes quickly</li>
+          <li>Pack a light rain layer. Bergen weather changes quickly</li>
           <li>Wear sturdy shoes for Bryggen cobblestones</li>
           <li>Monitor your cruise app for all-aboard updates throughout the day</li>
         </ul>

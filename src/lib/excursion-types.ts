@@ -62,7 +62,7 @@ export type ExcursionData = {
   breadcrumbs: readonly ExcursionBreadcrumb[];
   relatedLinks: readonly ExcursionRelatedLink[];
   bookingHref?: string;
-  bookingLabel?: string;
+  exploreLabel?: string;
   ctaTitle?: string;
   ctaText?: string;
 };

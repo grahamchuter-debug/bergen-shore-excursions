@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:schedules": "node scripts/sync-bergen-schedules.mjs",
+    "qa:bergen": "node scripts/qa-bergen-world20.mjs"
   },
   "dependencies": {
     "next": "16.2.6",

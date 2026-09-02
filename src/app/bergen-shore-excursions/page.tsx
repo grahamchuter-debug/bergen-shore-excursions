@@ -43,7 +43,7 @@ const faqs = [
   {
     question: "Do Bergen tours guarantee return to the cruise ship?",
     answer:
-      "Ship-sponsored excursions usually include a ship guarantee. Independent tickets do not — you are responsible for meeting your vessel's all-aboard time. Always confirm timing on your cruise app before booking.",
+      "Ship-sponsored excursions usually include a ship guarantee. Independent tickets do not, you are responsible for meeting your vessel's all-aboard time. Always confirm timing on your cruise app before booking.",
   },
 ] as const;
 
@@ -69,7 +69,7 @@ export default function BergenShoreExcursionsPage() {
           Bergen combines a UNESCO-listed harbour city with immediate access to
           Osterfjord and the Mostraumen strait. Cruise passengers step off near
           Vågen and can reach Bryggen, fjord cruise quays, and Fløibanen within
-          minutes — less transfer time, more time for the experiences that matter.
+          minutes, less transfer time, more time for the experiences that matter.
         </p>
         <p>
           Before booking, read our{" "}
@@ -81,7 +81,7 @@ export default function BergenShoreExcursionsPage() {
       <CruisePortDayPlanner />
 
       <section>
-        <h2>Fjord Cruise to Mostraumen — headline scenic tour</h2>
+        <h2>Fjord Cruise to Mostraumen, headline scenic tour</h2>
         <p>
           The Mostraumen cruise is the signature Bergen shore excursion for
           passengers who want fjord drama without a full-day expedition. Modern
@@ -117,7 +117,7 @@ export default function BergenShoreExcursionsPage() {
       </section>
 
       <section>
-        <h2>Bergen Walking Tour — explore the city on foot</h2>
+        <h2>Bergen Walking Tour, explore the city on foot</h2>
         <p>
           The walking tour is our top pick for shorter port calls. Guides cover
           Bryggen, Vågen harbour, the Fish Market, Bergenhus Fortress exterior,
@@ -134,7 +134,7 @@ export default function BergenShoreExcursionsPage() {
         <h2>Mount Fløyen and private sightseeing</h2>
         <p>
           Mount Fløyen viewpoint tours focus on the Fløibanen funicular and
-          summit terraces — ideal for photography and easy sightseeing. Private
+          summit terraces, ideal for photography and easy sightseeing. Private
           Bergen touring suits longer port days when families or small groups
           want flexible pacing through Bryggen, harbour viewpoints, and historic
           districts.

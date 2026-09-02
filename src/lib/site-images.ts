@@ -63,7 +63,7 @@ export const imageAlts = {
   walkingTour:
     "Historic Hanseatic streets at Bryggen on a Bergen walking tour for cruise passengers",
   privateSightseeing:
-    "Bryggen harbour front — a highlight on private Bergen sightseeing tours",
+    "Bryggen harbour front, a highlight on private Bergen sightseeing tours",
   mostraumenCard:
     "Fjord cruise from Bergen through Osterfjord toward Mostraumen strait",
   funicularCard:
@@ -75,7 +75,7 @@ export const imageAlts = {
   privateCard:
     "Private Bergen sightseeing with flexible city and harbour touring",
   flamPortCard:
-    "Flam harbour with a cruise ship at the pier — same hero image as Flam Shore Excursions",
+    "Flam harbour with a cruise ship at the pier, same hero image as Flam Shore Excursions",
   stavangerPortCard:
-    "Vågen harbour in Stavanger with a cruise ship docked beside waterfront buildings — same hero image as Stavanger Shore Excursions",
+    "Vågen harbour in Stavanger with a cruise ship docked beside waterfront buildings, same hero image as Stavanger Shore Excursions",
 } as const;

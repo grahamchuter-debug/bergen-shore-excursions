@@ -6,7 +6,7 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
   path: "/excursions/private-bergen-sightseeing",
   title: "Private Bergen Sightseeing",
   headline: "Private Bergen Sightseeing",
-  lead: "The premium private option — a flexible driver-guide or private guide experience covering Bryggen, harbour viewpoints, historic areas, and city highlights tailored to families, couples, and small groups.",
+  lead: "The premium private option, a flexible driver-guide or private guide experience covering Bryggen, harbour viewpoints, historic areas, and city highlights tailored to families, couples, and small groups.",
   metaTitle: "Private Bergen Sightseeing for Cruise Passengers",
   metaDescription:
     "Private Bergen sightseeing with flexible routing for cruise passengers. Personal guide or driver-guide covering Bryggen, harbour, viewpoints, and historic areas.",
@@ -14,7 +14,7 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
   heroImageAlt: imageAlts.privateSightseeing,
   heroBadge: "Premium flexible touring for cruise passengers",
   summary: {
-    duration: "Flexible — typically 3–5 hours",
+    duration: "Flexible, typically 3–5 hours",
     meetingPoint:
       "Cruise port pickup or central Bergen meeting point by arrangement",
     returnReassurance:
@@ -23,7 +23,7 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
       "Families, couples, and small groups wanting personalised pacing and routing",
   },
   snapshotCards: [
-    { label: "Group size", value: "Private — your party only" },
+    { label: "Group size", value: "Private, your party only" },
     { label: "Style", value: "Guide-led or driver-guide touring" },
     { label: "Flexibility", value: "Custom stops and pacing" },
     { label: "Port call fit", value: "Best for 10+ hour visits" },
@@ -36,17 +36,17 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
   ],
   highlights: [
     "Private guide or driver-guide dedicated to your group",
-    "Flexible sightseeing — Bryggen, harbour, viewpoints, and historic districts",
+    "Flexible sightseeing. Bryggen, harbour, viewpoints, and historic districts",
     "Pacing adjusted for children, photography stops, or mobility needs",
     "Efficient transport when walking distance is impractical",
     "Ideal for longer port days when you want a bespoke Bergen experience",
     "Return-to-ship timing discussed and built into the itinerary",
   ],
   description: [
-    "Private sightseeing removes the fixed schedule of group tours. Your guide or driver-guide meets you at the cruise port or an agreed central point, then shapes the day around your interests — whether that means extended time in Bryggen, a detour to Mount Fløyen, or harbour viewpoints away from the busiest lanes.",
+    "Private sightseeing removes the fixed schedule of group tours. Your guide or driver-guide meets you at the cruise port or an agreed central point, then shapes the day around your interests, whether that means extended time in Bryggen, a detour to Mount Fløyen, or harbour viewpoints away from the busiest lanes.",
     "Couples and families often choose private touring when they want rest breaks, kid-friendly pacing, or the freedom to linger at the Fish Market without holding a bus group. Driver-guide formats add comfort on wet days and help you cover more ground when your ship stays ten hours or longer.",
     "Because the itinerary is yours, you can combine city highlights with a relaxed lunch stop or optional funicular ride. Operators typically confirm all-aboard time upfront and work backward to set a hard return-to-port deadline with buffer included.",
-    "This is the premium option on our Cruise Smart Planner for extended port calls — especially when you have already done a group fjord cruise on a previous visit or want a personalised introduction to Bergen without sharing a coach.",
+    "This is the premium option on our Cruise Smart Planner for extended port calls, especially when you have already done a group fjord cruise on a previous visit or want a personalised introduction to Bergen without sharing a coach.",
   ],
   included: [
     "Private guide or driver-guide for your party",
@@ -84,7 +84,7 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
     {
       question: "Can a private tour include Mount Fløyen or a fjord cruise?",
       answer:
-        "City-focused private tours often include Fløibanen time. Fjord cruises usually book separately because of fixed sailing schedules — ask your operator about combining both on full-day calls.",
+        "City-focused private tours often include Fløibanen time. Fjord cruises usually book separately because of fixed sailing schedules, ask your operator about combining both on full-day calls.",
     },
     {
       question: "How far in advance should I book a private Bergen tour?",
@@ -103,7 +103,7 @@ export const privateBergenSightseeingExcursion: ExcursionData = {
     { label: "One day in Bergen", href: "/one-day-in-bergen" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
+  exploreLabel: "Explore this excursion",
   ctaTitle: "Ready to book private Bergen sightseeing?",
   ctaText:
     "Enjoy flexible, personal touring designed around your ship's timetable and your group's pace.",

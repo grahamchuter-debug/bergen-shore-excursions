@@ -10,7 +10,7 @@ import { buildItemListSchema } from "@/lib/site-schema";
 import { imageAlts, siteImages } from "@/lib/site-images";
 
 const pageMeta = {
-  title: "Bergen Excursions — All Shore Tours for Cruise Passengers",
+  title: "Bergen Excursions: Shore Tours for Cruise Passengers",
   description:
     "Browse all Bergen shore excursions for cruise passengers: Mostraumen fjord cruise, funicular city tour, walking tour, Mount Fløyen, and private sightseeing.",
   path: "/excursions",
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "Do all Bergen excursions depart near the cruise port?",
     answer:
-      "Yes. Featured tours meet in central Bergen near Vågen harbour, Bryggen, or Torget — typically a 10–20 minute walk from most cruise berths.",
+      "Yes. Featured tours meet in central Bergen near Vågen harbour, Bryggen, or Torget, typically a 10–20 minute walk from most cruise berths.",
   },
 ] as const;
 
@@ -56,7 +56,7 @@ export default function ExcursionsIndexPage() {
       <JsonLd data={[buildItemListSchema(bergenTourListItems)]} />
       <ContentPage
         title="Bergen Excursions"
-        lead="Every cruise-friendly shore excursion in Bergen — fjord cruises, city walks, funicular viewpoints, and private touring — with return-to-ship timing in mind."
+        lead="Cruise-friendly shore excursion options in Bergen: fjord sailings, city walks, funicular viewpoints and private touring, with return-to-ship timing in mind."
         heroImage={pageMeta.ogImage}
         heroImageAlt={pageMeta.ogImageAlt}
         pagePath={pageMeta.path}
@@ -64,8 +64,8 @@ export default function ExcursionsIndexPage() {
         breadcrumbs={breadcrumbs}
         relatedLinks={relatedLinks}
         faqs={faqs}
-        ctaTitle="Need help choosing a Bergen tour?"
-        ctaText="Use the shore excursions guide and Cruise Smart Planner to match tours to your ship's timetable."
+        ctaTitle="Need help choosing a Bergen option?"
+        ctaText="Use the shore excursions guide and port-day planner to match ideas to your hours ashore."
         ctaHref="/bergen-shore-excursions"
         ctaButtonLabel="Open shore excursions guide"
         belowHero={

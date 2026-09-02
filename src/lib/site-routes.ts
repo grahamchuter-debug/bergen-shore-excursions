@@ -55,4 +55,34 @@ export const siteRoutes = [
     priority: 0.8,
     changeFrequency: "monthly" as const,
   },
+  {
+    path: "/ship-schedule",
+    priority: 0.9,
+    changeFrequency: "weekly" as const,
+  },
+  {
+    path: "/bergen-city-or-fjord",
+    priority: 0.85,
+    changeFrequency: "monthly" as const,
+  },
+  {
+    path: "/about",
+    priority: 0.5,
+    changeFrequency: "yearly" as const,
+  },
+  {
+    path: "/contact",
+    priority: 0.5,
+    changeFrequency: "yearly" as const,
+  },
+  {
+    path: "/privacy",
+    priority: 0.3,
+    changeFrequency: "yearly" as const,
+  },
+  {
+    path: "/terms",
+    priority: 0.3,
+    changeFrequency: "yearly" as const,
+  },
 ] as const;
